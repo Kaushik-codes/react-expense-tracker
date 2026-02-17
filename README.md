@@ -1,45 +1,59 @@
 # 📌 React Expense Tracker
 
-A full-featured Expense Tracker built with React that demonstrates modern state management using **Context API** and **useReducer**. This project focuses on clean architecture, proper state flow, and real-world React patterns.
+A modern and scalable **Expense Tracker** built with React.  
+This project demonstrates clean architecture and real-world state management using **Context API** and **useReducer**.
 
-LIVE DEMO: react-expense-tracker-chi-orpin.vercel.app
+🔗 **Live Demo:**  
+👉 https://react-expense-tracker-chi-orpin.vercel.app/
 
 ---
 
 ## 🚀 Features
 
-* **Transaction Management**: Add, edit, and delete income/expense transactions.
-* **Smart Filtering**: Filter by All, Income, or Expense categories.
-* **Search**: Find specific transactions by category name.
-* **Auto-Calculations**:
-    * Total Balance
-    * Total Income
-    * Total Expense
-* **Data Persistence**: Uses `localStorage` to keep your data safe on refresh.
-* **Architecture**: Clean and scalable folder structure.
+### 💰 Transaction Management
+- Add income and expense transactions  
+- Edit existing transactions  
+- Delete transactions instantly  
+
+### 🔎 Smart Filtering & Search
+- Filter by **All / Income / Expense**
+- Search transactions by category  
+
+### 📊 Automatic Calculations
+- Real-time total balance  
+- Separate income total  
+- Separate expense total  
+
+### 💾 Data Persistence
+- Saves data in `localStorage`
+- Transactions remain after page refresh  
+
+### 🏗️ Clean Architecture
+- Global state management using Context API  
+- Structured reducer logic  
+- Derived state for calculations  
+- Scalable folder organization  
 
 ---
 
-## 🧠 Concepts Used
+## 🧠 Technical Concepts Demonstrated
 
-This project demonstrates proficiency in the following React patterns:
+### ⚛️ React Hooks
+- `useState`
+- `useReducer`
+- `useContext`
+- `useEffect`
+- `useMemo`
 
-### Hooks
-* `useState` & `useReducer` for robust state transitions.
-* `Context API` for global state distribution.
-* `useEffect` for side effects and storage synchronization.
-* `useMemo` for performance optimization of derived state.
-
-### Architecture & Logic
-* **Controlled forms**: For predictable input handling.
-* **Component composition**: To build modular, reusable UI.
-* **Derived state**: To ensure a single source of truth for calculations.
-* **LocalStorage persistence**: For a seamless user experience.
+### 🏛️ Architecture & Design Principles
+- Global state management pattern
+- Reducer-based state transitions
+- Controlled components (forms)
+- Derived state (no redundant storage)
+- Separation of concerns
+- Unidirectional data flow
 
 ---
 
-## 🛠️ Installation & Setup
+## 📂 Project Structure
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/yourusername/react-expense-tracker.git](https://github.com/yourusername/react-expense-tracker.git)
