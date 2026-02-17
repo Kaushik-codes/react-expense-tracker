@@ -2,6 +2,8 @@
 
 A full-featured Expense Tracker built with React that demonstrates modern state management using **Context API** and **useReducer**. This project focuses on clean architecture, proper state flow, and real-world React patterns.
 
+LIVE DEMO: react-expense-tracker-chi-orpin.vercel.app
+
 ---
 
 ## 🚀 Features
